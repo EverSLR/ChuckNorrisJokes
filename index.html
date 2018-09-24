@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+     <!-- Mterialized -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+     <!-- Font awesome -->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <title>DOM Object</title>
+</head>
+<body>
+    <div class="container ">
+        <div class="row">
+            <div class="col s12">
+                <form class="col s12">
+                    <h2>Chuck Norris Joke GEN</h2>
+                    <div class="row" id="optional">
+                        <div class="input-field col s6">
+                            <input type="text" id="first-name" class="validate">
+                            <label for="first-name">First Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input type="text" id="last-name" class="validate">
+                            <label for="last-name">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="row valign-wrapper">
+                        <div class="col s3">
+                        </div>
+                        <div class="input-field col s3">
+                            <input type="number" id="number" class="validate" min="1" max="100">
+                            <label for="number-jokes">Number of Jokes</label>
+                        </div>
+                        <div class="col s3">
+                            <button class="btn" type="submit">GET JOKES</button>
+                        </div>
+                        <div class="col s3">
+                            <p>
+                                <label>
+                                    <input type="checkbox" id="customize"/>
+                                    <span>Customize</span>
+                                </label>
+                            </p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+                <div class="col s12">
+                    <ul class="collection s12"></ul>
+                </div>
+            </div>
+    </div>
+
+    <!-- Jquery -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+
+    <!-- JavaScript Materialized -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Own JS -->
+    <script src="js/app.js"></script>
+</body>
+</html>
